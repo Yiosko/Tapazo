@@ -41,9 +41,9 @@
   color: #888;
 }
 
-.fondcerveza {
-  width: 15vw;
-  position: absolute;
-  right: 200px;
-  bottom: 50px;
+.buttonTicket {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #179d1d;
+  margin: 3px;
 }
