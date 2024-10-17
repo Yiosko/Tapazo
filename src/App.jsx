@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function NumberTicket({value}) {
-  const urlUno =`https://api.whatsapp.com/send?phone=+573212187011&text=Hola%2C+estoy+interesad%40+en+el+%2ATAPAZO%2A%F0%9F%98%8A%0A%0A_Quisiera+comprar+la+tapa+%2A%23%7B${toString(value+1)}%7D%2A_++%0A%0A%28INGRESE+SU+NOMBRE+%F0%9F%A4%93%2C+COMPROBANTE+DE+PAGO+A+NEQUI+%F0%9F%93%B2+%23+%2A3212187011%2A%60%60%60%28A+NOMBRE+DE+KAROLL%29%60%60%60%29.%0A%0A%0A%2AUna+vez+se+vea+reflejado+el+pago%2C+en+breve+se+les+asignaran+el+puesto.%2A%F0%9F%98%80%0A%0Ales+deseo+%2ASUERTE%2A+y+que+empiece+el+%2AJUEGO%2A+%F0%9F%91%BB`;
+  const urlUno =`https://api.whatsapp.com/send?phone=+573212187011&text=Hola%2C+estoy+interesad%40+en+el+%2ATAPAZO%2A%F0%9F%98%8A%0A%0A_Quisiera+comprar+la+tapa+%2A%23${value+1}%2A_++%0A%0A%28INGRESE+SU+NOMBRE+%F0%9F%A4%93%2C+COMPROBANTE+DE+PAGO+A+NEQUI+%F0%9F%93%B2+%23+%2A3212187011%2A%60%60%60%28A+NOMBRE+DE+KAROLL%29%60%60%60%29.%0A%0A%0A%2AUna+vez+se+vea+reflejado+el+pago%2C+en+breve+se+les+asignaran+el+puesto.%2A%F0%9F%98%80%0A%0Ales+deseo+%2ASUERTE%2A+y+que+empiece+el+%2AJUEGO%2A+%F0%9F%91%BB`;
 
   const urlDos =`https://wa.me/573212187011?text=Hola, estoy interesado en el *TAPAZO*😊%0a
   me gustaria comprar la **TAPA#${value+2}**%0a%0a
