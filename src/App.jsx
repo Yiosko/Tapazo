@@ -112,12 +112,54 @@ function App() {
             : 
             <>
             <h2>Canasta Dos</h2>
-            <NumberTicket value={36} />
-            <NumberTicket value={42} />
-            <NumberTicket value={48} />
-            <NumberTicket value={54} />
-            <NumberTicket value={60} />
-            <NumberTicket value={66} />
+            <div>
+              <NumberTicket value={36} isSelected={true}/>
+              <NumberTicket value={37} isSelected={true}/>
+              <NumberTicket value={38} isSelected={true}/>
+              <NumberTicket value={39} isSelected={true}/>
+              <NumberTicket value={40} isSelected={true}/>
+              <NumberTicket value={41} isSelected={true}/>
+            </div>
+            <div>
+              <NumberTicket value={42} isSelected={true}/>
+              <NumberTicket value={43} isSelected={true}/>
+              <NumberTicket value={44} isSelected={true}/>
+              <NumberTicket value={45} isSelected={true}/>
+              <NumberTicket value={46} isSelected={true}/>
+              <NumberTicket value={47} isSelected={true}/>
+            </div>
+            <div>
+              <NumberTicket value={48} isSelected={true}/>
+              <NumberTicket value={49} isSelected={true}/>
+              <NumberTicket value={50} isSelected={true}/>
+              <NumberTicket value={51} isSelected={true}/>
+              <NumberTicket value={52} isSelected={true}/>
+              <NumberTicket value={53} isSelected={true}/>
+            </div>
+            <div>
+              <NumberTicket value={54} isSelected={true}/>
+              <NumberTicket value={55} isSelected={true}/>
+              <NumberTicket value={56} isSelected={true}/>
+              <NumberTicket value={57} isSelected={true}/>
+              <NumberTicket value={58} isSelected={true}/>
+              <NumberTicket value={59} isSelected={true}/>
+            </div>
+            <div>
+              <NumberTicket value={60} isSelected={true}/>
+              <NumberTicket value={61} isSelected={true}/>
+              <NumberTicket value={62} isSelected={true}/>
+              <NumberTicket value={63} isSelected={true}/>
+              <NumberTicket value={64} isSelected={true}/>
+              <NumberTicket value={65} isSelected={true}/>
+            </div>
+            <div>
+              <NumberTicket value={66} isSelected={true}/>
+              <NumberTicket value={67} isSelected={true}/>
+              <NumberTicket value={68} isSelected={true}/>
+              <NumberTicket value={69} isSelected={true}/>
+              <NumberTicket value={70} isSelected={true}/>
+              <NumberTicket value={71} isSelected={true}/>
+            </div>
             </>
 
           }
