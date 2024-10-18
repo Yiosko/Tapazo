@@ -83,7 +83,7 @@ function App() {
               <NumberTicket value={17} isSelected={true}/>
             </div>
             <div>
-              <NumberTicket value={18} isSelected={false}/> //TODO: Alejo
+              <NumberTicket value={18} isSelected={false}/>
               <NumberTicket value={19} isSelected={true}/>
               <NumberTicket value={20} isSelected={true}/>
               <NumberTicket value={21} isSelected={true}/>
