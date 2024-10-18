@@ -85,3 +85,16 @@
 .panel-box h2 {
   text-align: center;
 }
+
+.seleccionado {
+  color: #3b2424;
+  width: 45px;
+  height: 45px;
+  border: 1px solid red;
+  margin: 3px;
+}
+
+.seleccionado:hover {
+  border: none;
+  color: red;
+}
